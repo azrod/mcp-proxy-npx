@@ -1,5 +1,5 @@
 # ARG before FROM is only available in the FROM instruction, not in subsequent RUN/LABEL/etc.
-ARG MCP_PROXY_VERSION=0.11.0
+ARG MCP_PROXY_VERSION=v0.11.0
 FROM ghcr.io/sparfenyuk/mcp-proxy:${MCP_PROXY_VERSION}
 
 LABEL org.opencontainers.image.source="https://github.com/azrod/mcp-proxy-npx"
